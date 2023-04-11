@@ -1,4 +1,4 @@
-<h1 align="center">Hi, My Team Is Barudak</h1>
+<h1 align="center">Hi, My Team Alumni 16</h1>
 <h3 align="center">Alumni TKJ Gen 16 SMKN1 PANGKALAN KERINCI</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=chandafa&label=Profile%20views&color=0e75b6&style=flat" alt="chandafa" /> </p>
