@@ -15,7 +15,13 @@
 
 - 📫 How to reach me **chankirana722@gmail.com**
 
-- 📄 Know about my experiences [blogchanit.my.id](blogchanit.my.id)
+- 📄 My Team
+   - Chandra
+   - Sandi
+   - Febry
+   - Suci
+   - Wilona
+   - Niken
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
