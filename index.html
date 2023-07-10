@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>My Website</title>
+    <title>Project Alumni-16</title>
     <link rel="shortcut icon" href="favicon.ico" />
 
     <link
@@ -23,69 +23,59 @@
   <body>
     <!-- navbar -->
     <nav
-      class="navbar bg-dark border-bottom border-bottom-dark fw-bold"
+      class="navbar navbar-expand-lg shadow-lg fixed-top bg-dark border-bottom border-bottom-dark"
       data-bs-theme="dark"
+      style="background-color: hsl(221, 83.2%, 53.3%)"
     >
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Alumni 16</a>
+        <a href="#" class="navbar-brand mb-0 h1">Alumni 16</a>
         <button
-          class="navbar-toggler"
           type="button"
+          class="navbar-toggler"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+          data-bs-target="#navbarCollapse"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://sites.google.com/smk.belajar.id/teknik-informatika-login">Profil TKJ</a>
-            </li>
-            <li class="nav-item dropdown">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto">
+            <a href="#home" class="nav-item nav-link active">Home</a>
+            <a
+              href="https://sites.google.com/smk.belajar.id/teknik-informatika-login"
+              class="nav-item nav-link"
+              >Profile TKJ</a
+            >
+            <a href="https://sistemalumnitkj.my.id" class="nav-item nav-link"
+              >Info Alumni</a
+            >
+            <div class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
                 href="#"
-                role="button"
+                class="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
-                aria-expanded="false"
+                >Jasa Kami</a
               >
-                Jasa Website
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Undangan Digital</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Pembuatan Website</a>
-                </li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Jasa Desain</a>
-                </li>
-              </ul>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Pembuatan Website</a>
+                <a href="#" class="dropdown-item">Undangan Digital</a>
+                <a href="#" class="dropdown-item">Design</a>
+              </div>
+            </div>
+            <a href="#contacts" class="nav-item nav-link">Kursus</a>
+            <!--
+            <li class="nav-item mt-auto">
+              <div class="form-check form-switch">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="switch"
+                  onclick="toggleTheme()"
+                />
+                <label class="form-check-label" for="switch"></label>
+              </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://sistemalumnitkj.my.id">Info Alumni</a>
-            </li>
-                        <li class="nav-item">
-              <a class="nav-link" href="#">Kursus</a>
-                        </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
+            -->
+          </div>
         </div>
       </div>
     </nav>
@@ -418,5 +408,5 @@
 
     <script src="./app.js"></script>
   </body>
-            </html>
-            
+  </html>
+              
